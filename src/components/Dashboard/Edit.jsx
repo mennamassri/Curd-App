@@ -60,7 +60,7 @@ const Edit = ({ employees, selectedEmployee, setEmployees, setIsEditing }) => {
          <form onSubmit={handleUpdate} className="bg-white p-8 rounded shadow-md max-w-lg ">
             <h1 className='mb-4 font-bold text-2xl'>Edit Employee</h1>
     
-            <div className="flex flex-col mb-4 ">
+            <div className="flex flex-col mb-4 p-2">
                 <label htmlFor="firstName" className="mb-1">First Name</label>
                 <input
                     id="firstName"
